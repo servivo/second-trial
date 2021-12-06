@@ -81,8 +81,7 @@ h4 {font-size: 16px;}
   font-weight: bold;
   color:rgba(180, 5, 8, 0.884);
   font-size: 34px;
-  line-height: 64px;
-  
+  line-height: 34px;
   font-weight: 400;
   
 }
@@ -97,5 +96,8 @@ h4 {font-size: 16px;}
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -14px;
+}
+p {
+  margin-top: 40px;
 }
