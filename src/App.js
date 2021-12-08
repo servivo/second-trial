@@ -13,6 +13,7 @@ export default function App() {
           <a
             href="https://github.com/servivo/second-trial"
             target="_blank"
+            title="Follow me on GitHub 😊"
             rel="noopener noreferrer"
           >
             open-sourced on GitHub
