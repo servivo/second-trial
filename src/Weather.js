@@ -44,7 +44,7 @@ export default function Weather(props) {
     let units = "metric";
     let apiEndpoint = "https://api.openweathermap.org/data/2.5/weather";
     let apiUrl = `${apiEndpoint}?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${units}`;
-    axios.get(`${apiUrl}`).then(setWeatherData);
+    axios.get(`${apiUrl}`).then(handleResponse);
   }
 function getCurrentPosition(event) {
   event.preventDefault();
@@ -74,7 +74,7 @@ function getCurrentPosition(event) {
           </div>
         </form>
         <span className="">
-          <button class="gps" onClick={getCurrentPosition}>
+          <button class="gps" title="Get current location" onClick={getCurrentPosition}>
             <i class="fas fa-search-location"></i>
           </button>
           <WeatherInfo data={weatherData} />{" "}

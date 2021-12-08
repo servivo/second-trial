@@ -38,16 +38,19 @@ h2 {margin-top: 30px;
 font-size: 30px;
 }
 .gps {
-  display: inline-block;
+  margin-left: 45px;
+ 
   background-color: black;
    border-radius: 7px;
   border-color: rgba(180, 5, 8, 0.884);
   border-style: hidden;
   font-size: 25px;
   color:rgba(180, 5, 8, 0.884);
-  
-   
-}
+  }
+  .gps:hover {
+    color: #d9d9d9;
+
+  }
 .units {
   position: relative;
   top: -14px;
@@ -74,12 +77,12 @@ h4 {font-size: 16px;}
   font-size: 34px;
   font-weight: 100;
   margin: 20px 0 0 0;
-  line-height: 29px;
+   line-height: 29px;
   display: inline;
+  
+  
 }
-.gpsbutton {
-  float: right;
-}
+
 .Weather ul {
   margin: 0;
   padding: 0;
